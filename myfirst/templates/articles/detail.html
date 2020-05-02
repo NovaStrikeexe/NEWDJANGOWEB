@@ -8,18 +8,24 @@
     {% if latest_comments_list %}
         {% for c in latest_comments_list %}
             <p>
-            <p class="showmore"><a href="{% url 'post_detail' pk=latest.pk %}">Show more</a></p>
+            <p class="showmore"><a href=" url 'post_detail' pk=latest.pk ">Show more</a></p>
             <strong>{{ c.author_name }}</strong>
             <p>{{ c.comment_text }}</p>
             </p>
         {% endfor %}
-    
-    {% endif %} 
+    {% else %}
+        Coments not found
+    {% endif %}
+
     <hr>
-    <form action="{% url 'articles:leave_comment' article_id %}" method="post">
+    <form action= "url 'articles:leave_comment' article_id " method="POST">
         {% csrf_token %}
-        <input type="text" required placeholder="Your name" name="name"><br>
-        <textarea name="text" required="" placeholder="Comment text:" cols="30" rows="10"></textarea><br>
+        <label>
+            <input type="text" required placeholder="Your name" name="name">
+        </label><br>
+        <label>
+            <textarea name="text" required="" placeholder="Comment text:" cols="30" rows="10"></textarea>
+        </label><br>
         <button type="submit">Post comment</button>
     </form>
 {% endblock %}
