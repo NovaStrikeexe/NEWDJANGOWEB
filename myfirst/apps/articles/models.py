@@ -14,7 +14,7 @@ class Article(models.Model):
         return self.article_title
 
     def was_published_in_two_days(self):
-        return self.publishing_date >= (timezone.now() - datetime.timedelta(days=2))
+        return self.publishing_date >= (timezone.now() - datetime.timedelta(days=7))
 
 
 class Comment(models.Model):

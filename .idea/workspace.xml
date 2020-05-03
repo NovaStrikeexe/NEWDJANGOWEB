@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,7 +56,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="myfirst.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\phant\AppData\Local\Programs\Python\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -91,7 +92,13 @@
       <workItem from="1587975046223" duration="715000" />
       <workItem from="1587981028867" duration="1920000" />
       <workItem from="1588067886249" duration="107000" />
-      <workItem from="1588410171663" duration="4907000" />
+      <workItem from="1588410171663" duration="6213000" />
+      <workItem from="1588446268365" duration="1792000" />
+      <workItem from="1588479548840" duration="475000" />
+      <workItem from="1588480663253" duration="45000" />
+      <workItem from="1588484684172" duration="5223000" />
+      <workItem from="1588492326745" duration="1622000" />
+      <workItem from="1588511488156" duration="8511000" />
     </task>
     <servers />
   </component>
@@ -99,48 +106,83 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="180" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588412038233">
+    <state x="679" y="78" key="#Dockerfile" timestamp="1588486766721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="180" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588412038233" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588067915971">
+    <state x="679" y="78" key="#Dockerfile/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588486766721" />
+    <state x="552" y="183" key="#Notifications" timestamp="1588485366724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588067915971" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588412703716">
+    <state x="552" y="183" key="#Notifications/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588485366724" />
+    <state x="414" y="180" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588493367854">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588412703716" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588412703715">
+    <state x="414" y="180" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588493367854" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588480706194">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588412703715" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588412703714">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588480706194" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588531590615">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588412703714" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588412703715">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588531590615">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588412703715" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1588411997251">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588531590615">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588411997251" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588067885140">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588531590615">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588067885140" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588531590485">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590485" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588531590484">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588531590484">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588531590484">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1588485377578">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588485377578" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588511493687">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588511493687" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1588511514459">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588511514459" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/myfirst/apps/articles/views.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
+          <line>11</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="latest_comments_list" language="Python" />
+        <watch expression="article.article_title" language="HTML" />
+        <watch expression="a.comment_set.order_by('article_id')[:5]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

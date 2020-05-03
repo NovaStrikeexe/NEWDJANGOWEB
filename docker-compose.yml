@@ -1,7 +1,9 @@
 version: '3'
 
   db:
-    image: postgres
+    image: sqlite3
+    environment:
+      - SQLITE3_DB=db.sqlite3
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
