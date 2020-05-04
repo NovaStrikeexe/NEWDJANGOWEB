@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="663808f7-0649-4c81-be47-14e50c44deb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +35,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myfirst/templates/articles" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\Django\myfirst\templates\articles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GIT\Django\myfirst" />
       <recent name="D:\GIT\Django\myfirst\myfirst\templates\articles" />
@@ -98,7 +98,9 @@
       <workItem from="1588480663253" duration="45000" />
       <workItem from="1588484684172" duration="5223000" />
       <workItem from="1588492326745" duration="1622000" />
-      <workItem from="1588511488156" duration="8511000" />
+      <workItem from="1588511488156" duration="8609000" />
+      <workItem from="1588571210319" duration="23000" />
+      <workItem from="1588588119670" duration="1291000" />
     </task>
     <servers />
   </component>
@@ -118,50 +120,50 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588493367854" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588480706194">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588571224338">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588480706194" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588531590615">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588571224338" />
+    <state width="1892" height="358" key="GridCell.Tab.0.bottom" timestamp="1588590694720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588531590615">
+    <state width="1892" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694720" />
+    <state width="1892" height="358" key="GridCell.Tab.0.center" timestamp="1588590694720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588531590615">
+    <state width="1892" height="358" key="GridCell.Tab.0.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694720" />
+    <state width="1892" height="358" key="GridCell.Tab.0.left" timestamp="1588590694719">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588531590615">
+    <state width="1892" height="358" key="GridCell.Tab.0.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694719" />
+    <state width="1892" height="358" key="GridCell.Tab.0.right" timestamp="1588590694720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590615" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588531590485">
+    <state width="1892" height="358" key="GridCell.Tab.0.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694720" />
+    <state width="1892" height="358" key="GridCell.Tab.1.bottom" timestamp="1588590694721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590485" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588531590484">
+    <state width="1892" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694721" />
+    <state width="1892" height="358" key="GridCell.Tab.1.center" timestamp="1588590694721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588531590484">
+    <state width="1892" height="358" key="GridCell.Tab.1.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694721" />
+    <state width="1892" height="358" key="GridCell.Tab.1.left" timestamp="1588590694720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588531590484">
+    <state width="1892" height="358" key="GridCell.Tab.1.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694720" />
+    <state width="1892" height="358" key="GridCell.Tab.1.right" timestamp="1588590694721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588531590484" />
+    <state width="1892" height="358" key="GridCell.Tab.1.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588590694721" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1588485377578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588485377578" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588511493687">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1588571210975">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588511493687" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1588571210975" />
     <state x="623" y="227" key="search.everywhere.popup" timestamp="1588511514459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -174,6 +176,16 @@
           <url>file://$PROJECT_DIR$/myfirst/apps/articles/views.py</url>
           <line>11</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myfirst/apps/articles/views.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/myfirst/templates/articles/detail.html</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

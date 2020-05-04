@@ -16,7 +16,7 @@ def detail(request, article_id):
         raise Http404("Artile not found :(")
 
     latest_comments_list = a.comment_set.order_by('-article_id')[:5]
-    return render(request, 'articles/detail.html', {'article': a, latest_comments_list: latest_comments_list})
+    return render(request, 'articles/detail.html', {'article': a, 'latest_comments_list': latest_comments_list})
 
 
 def leave_comment(request, article_id):
