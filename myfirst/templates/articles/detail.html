@@ -7,7 +7,7 @@
     <hr>
     {% if latest_comments_list %}
         {% for foo in latest_comments_list.all %}
-            <p><strong>{{ foo.author_name}}</strong></p>
+            <p><strong>{{ foo.author_name }}</strong></p>
             <p>{{ foo.comment_text }}</p>
         {% endfor %}
 
@@ -16,7 +16,7 @@
     {% endif %}
 
     <hr>
-    <form action= " /articles:leave_comment article_id " method="post">
+    <form action="{% url 'articles:leave_comment' article.id %}" method="POST">
         {% csrf_token %}
         <label>
             <input type="text" required placeholder="Your name" name="name">
